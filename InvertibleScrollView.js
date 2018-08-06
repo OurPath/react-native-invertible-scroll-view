@@ -43,7 +43,7 @@ let InvertibleScrollView = createReactClass({
     var {
       inverted,
       renderScrollComponent,
-      ...props,
+      ...props
     } = this.props;
 
     if (inverted) {
